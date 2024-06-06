@@ -1,0 +1,23 @@
+(lang dune 3.15)
+
+(name ocaml_lin_reg)
+
+(generate_opam_files true)
+
+(source
+ (github adithyay328/OCAMLLinearRegression))
+
+(authors "Adithya Yerramsetty")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name ocaml_lin_reg)
+ (synopsis "A quick expirement with running linear regression in ocaml")
+ (depends ocaml dune)
+ (tags
+  (topics "to describe" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
